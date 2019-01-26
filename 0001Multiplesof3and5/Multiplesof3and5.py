@@ -5,7 +5,7 @@ sys.path.append("..") # Adds higher directory to python modules path.
 # Built in modules
 from math import floor
 # My modules
-from mathidentities import int_sum_identity
+from myMath import int_sum_identity
 
 def multiples_of_x_form_1_to_n(n, x):
     return floor(n / x)
